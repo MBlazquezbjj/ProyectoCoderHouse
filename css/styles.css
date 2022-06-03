@@ -1,0 +1,250 @@
+/* CLASS */
+
+.menu-mma {
+    list-style: none;
+}
+
+.menu-mma li {
+    height: 100px;
+    transition: height 0.2s;
+}
+
+.menu-mma li:hover {
+    height: 115px;
+}
+
+.parrafo-green {
+    color: yellow;
+    font-weight: 1000;
+}
+
+.footer {
+    background-image: linear-gradient(to left, greenyellow, lightblue);
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-template-rows: auto;
+    row-gap: 1em;
+    font-weight: bold;
+}
+
+.grid div {
+    background: #ecf0f1;
+    padding: 2em;
+}
+
+.grid div:hover {
+    border: 1px solid red;
+}
+
+.container {
+    background: white;
+    width: 100%;
+    max-width: 10000px;
+    margin: 1.5em auto;
+    display: grid;
+    gap: 1.5em;
+    grid-template-columns: repeat(auto-fit, minmax(150px));
+}
+
+.container>.content {
+    background: greenyellow;
+}
+
+.mma-center {
+    background: white;
+    width: 90%;
+    max-width: 10000px;
+    margin: 1.5em auto;
+    display: grid;
+    gap: 1.5em;
+    grid-template-columns: repeat(3, 1fr)
+}
+
+.img-center {
+    background: white;
+    width: 90%;
+    max-width: 10000px;
+    margin: 1.5em auto;
+    display: grid;
+    gap: 1.5em;
+    grid-template-columns: repeat(3, 1fr)
+}
+
+.img-center2 {
+    background: pink;
+    width: 100%;
+    max-width: 500px;
+    margin: 1.5em auto;
+    display: grid;
+    gap: 1.5em;
+    grid-template-columns: repeat(3, 1fr)
+}
+
+.accordion-item {
+    font-weight: bold;
+    background-color: beige;
+    font-size: large;
+}
+
+.mb-3 {
+    background-color: beige;
+}
+
+.h1mma {
+    margin-top: auto;
+    text-align: center;
+    color: green;
+    font-weight: bold;
+    transform: translateX(30%)translateY(30%);
+    text-decoration: underline
+}
+
+
+
+.mainhistoria {
+    background-color: black;
+}
+
+
+/* ESTRUCTURA */
+
+a {
+    text-decoration: underline;
+    color: green;
+    font-size: 30px;
+}
+
+body {
+    font-family: raleway;
+    margin: 0%;
+    background-color: lightcyan;
+
+}
+
+footer {
+    font-weight: 800;
+    color: blue;
+}
+
+li {
+    font-size: 20px;
+    display: inline-block;
+    width: 250px;
+}
+
+header {
+    background-image: linear-gradient(to left, pink, greenyellow);
+}
+
+nav {
+    text-align: center;
+    font-weight: bold;
+    font-size: x-large;
+}
+
+p {
+    font-weight: bold;
+    font-size: x-large;
+}
+
+h1 {
+    background: black;
+    width: 90%;
+    max-width: 10000px;
+    margin: 1.5em auto;
+    display: grid;
+    gap: 1.5em;
+    grid-template-columns: repeat(3, 1fr)
+}
+
+h2 {
+    font-weight: bold;
+    font-size: x-large;
+
+}
+
+td {
+    font-weight: bold;
+    font-size: large;
+}
+
+nav a:hover {
+    color: red;
+    height: 200px;
+}
+
+
+/* CONTAINER */
+
+.container>.content,
+.container>.sidebar,
+.container>.footer,
+.container>.grid {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid black;
+}
+
+.container>.content {
+    background: greenyellow;
+}
+
+.container>.sidebar {
+    background: pink;
+    color: black;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+}
+
+/* ANIMACIONES */
+
+@keyframes efecto {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+#animaciones {
+    border: 4px solid rgba(0, 0, 0, 1);
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    border-left-color: green;
+    animation: efecto 1s linear infinite;
+    animation-name: efecto;
+    margin: 1.5em auto;
+
+
+}
+
+/* BACKGROUND */
+
+#resumen {
+    background-color: #eaeaea;
+}
+
+#background {
+    background-image: url(../Img/background.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#h1disciplinas {
+    background-color:lightcyan;
+    margin-top: auto;
+    text-align: center;
+    color: green;
+    font-weight: bold;
+    transform: translateX(30%)translateY(30%);
+    text-decoration: underline
+}
